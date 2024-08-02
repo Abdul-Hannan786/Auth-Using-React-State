@@ -8,7 +8,7 @@ const users = [
     email: "hannan@gmail.com",
     password: "123456",
     username: "Abdul Hannan",
-    hobbies: ["Swimming", "cricket", "Traveling"],
+    hobbies: ["Swimming", "cricket", "Traveling", "Programming", "Football", "Gym"],
     post: [
       {
         content:
@@ -27,7 +27,7 @@ const users = [
     email: "abdullah@gmail.com",
     password: "123456",
     username: "Abdullah",
-    hobbies: ["Swimming", "cricket", "Traveling"],
+    hobbies: ["Swimming", "cricket", "Traveling", "Teaching", "Business"],
     post: [
       {
         content:
@@ -118,7 +118,6 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
             padding: "10px",
             borderRadius: "6px",
             border: "1px solid lightgray",
-            hover: ""
           }}
         />
 
