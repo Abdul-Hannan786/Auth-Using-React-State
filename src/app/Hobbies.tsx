@@ -7,13 +7,24 @@ type HobbiesType = {
 const Hobbies = ({hobbies}: HobbiesType) => {
   return (
     
-   <ul style={{fontFamily: "sans-serif"}}>
+   <div style={{
+    padding: "15px"
+   }}>
+    <h1 style={{fontFamily: "sans-serif"}}>Hobbies</h1>
     {
         hobbies?.map((hobby, i) => (
-            <li key={hobby + i}>{hobby}</li>
+            <button
+               style={{
+                  padding: "7px",
+                  borderRadius: "90px",
+                  marginRight: "10px",
+                  border: "0",
+                  marginBottom: "10px"
+               }}
+               key={hobby + i}>{hobby}</button>
         ))
     }
-   </ul>
+   </div>
   )
 }
 
