@@ -88,7 +88,7 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
           alignItems: "center",
           boxShadow: "0 0 5px gray",
           borderRadius: "20px",
-          padding: "4%"
+          padding: "3.4%"
         }}
       >
         <input
@@ -100,9 +100,10 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
             setEmail(event.target.value);
           }}
           style={{
-            padding: "10px",
+            padding: "17px",
             borderRadius: "6px",
             border: "1px solid lightgray",
+            // width: "100%"
           }}
         />
 
@@ -117,9 +118,10 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
             setPassword(event.target.value);
           }}
           style={{
-            padding: "10px",
+            padding: "17px",
             borderRadius: "6px",
             border: "1px solid lightgray",
+            // width: "100%"
           }}
         />
 
@@ -127,8 +129,8 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
 
         <button
           style={{
-            padding: "9px",
-            width: "100%",
+            padding: "17px 85px",
+            // width: "114",
             borderRadius: "6px",
             border: "0",
             backgroundColor: "#1976d2",
@@ -140,7 +142,7 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
         </button>
       </div>
       <div style={{
-        padding: "1%",
+        padding: "1.5%",
         boxShadow: "0 0 5px gray",
         borderRadius: "20px",
       }}>
