@@ -73,9 +73,11 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        height: "75vh",
+        height: "88vh",
         width: "100%",
         fontFamily: "sans-serif",
+        flexDirection: "column",
+        rowGap: "15px"
       }}
     >
       <div
@@ -136,6 +138,14 @@ const Login = ({ changeAuthStatus, setUser }: LoginType) => {
         >
           Login
         </button>
+      </div>
+      <div style={{
+        padding: "1%",
+        boxShadow: "0 0 5px gray",
+        borderRadius: "20px",
+      }}>
+        <p><b>Email: </b>hannan@gmail.com</p>
+        <p><b>Password: </b>123456</p>
       </div>
     </div>
   );
